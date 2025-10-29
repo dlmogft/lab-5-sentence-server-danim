@@ -1,6 +1,6 @@
 # lab-5-sentence-server-danim
 
-This is a Spring Cloud Eureka client project that is registered and discovered in the lab-4-eureka-server-danim
+This is a Spring Cloud Eureka client project that is registered and discovered in the **lab-4-eureka-server-danim**<br>
 This project acts as a **load-balancer** of **lab-5-word-server-danim** repo executions
 
 # Starting this client repository
