@@ -52,7 +52,8 @@ public class SentenceController {
      */
     public String getWord(String service) {
         try {
-            return template.getForObject("http://" + service, String.class);
+            // return template.getForObject("http://" + service, String.class);
+            return template.getForObject("http://" + service, Word.class).getWord();
         } catch (Exception e) {
             System.out.println("Error retrieving " + service + " Error: " + e.getMessage());
             return "(Error retrieving " + service + ")";
